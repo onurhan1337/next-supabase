@@ -4,7 +4,7 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --custom-bg-color: #101010;
   --custom-panel-color: #222;
-  --custom-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+  --custom-box-shadow: 0 2px 8px 0 rgba(149, 222, 23, 0.8);
   --custom-color: #fff;
   --custom-color-brand: #24b47e;
   --custom-color-secondary: #666;
@@ -38,6 +38,15 @@ body,
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+.login {
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--custom-panel-color);
+  border-radius: var(--custom-border-radius);
+  box-shadow: var(--custom-box-shadow);
 }
 .row {
   position: relative;
